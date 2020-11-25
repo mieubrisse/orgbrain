@@ -10,7 +10,7 @@ And yet... we have all these amazing advancements for machine code - cloud stora
 
 Rules for writing human code
 ----------------------------
-### Every item must be actionable - i.e. must start with a verb or conditional-verb
+### Every item must be actionable (must start with a verb or conditional-verb)
 Machine code is a sequence of unambiguous, actionable instructions to the machine. Make human code likewise by starting every item start with a verb (e.g. "Press the 'Upgrade' button in the bottom-right corner of the UI") or conditional followed by a verb (e.g. "If the return code is 12, press the 'Send logs to IT' button").
 
 By this rule, any supplemental information must be in-line (e.g. "Restart the server (NOTE: be careful; the power button's logo has faded!)"). Do NOT put supplemental info as a subtask.
