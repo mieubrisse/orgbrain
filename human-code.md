@@ -52,6 +52,16 @@ If your checklist uses a lot of machine code, it might be worth having the user 
 ### Use TODOs to clearly indicate work-in-progress areas
 As with machine code, it's okay to build human code iteratively. Don't fall into the trap of feeling like codifying a checklist means you have to write down every last detail in excruciating detail. If you know an area needs more work, log a TODO and check it into version control so future executors can get in touch with you in the future.
 
+### Use ordered and unordered lists correctly
+Often, steps need to be run in sequence. Sometimes, they can be run in parallel. Use ordered and unordered lists to represent these:
+```
+1. [ ] Do first step
+2. [ ] Do second step
+    * [ ] Do parallelizable step 2 subtask
+    * [ ] Do other parallelizable step 2 subtask
+3. [ ] Do final step
+```
+
 ### Don't repeat yourself (single-source rule)
 We have the maxim "Don't Repeat Yourself" (DRY) when writing machine code because code duplication leads to divergent logic and bugs. This holds true at many levels:
 
