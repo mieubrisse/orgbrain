@@ -2,9 +2,9 @@ Human Code
 ==========
 What's human code?
 ------------------
-Imagine you're an airline and you have a sequence of things that need to be done to make a plane ready before takeoff. Would you rely on the pilot to remember these things? Of course not - the human memory is prone to lapses and affected by even things as small as what you ate that day; missing even one thing could spell disaster in flight. Even if one pilot remembered the steps perfectly, the next pilot might not. No, your airline would make a checklist.
+Imagine you're an airline and you have a sequence of things that need to be done to make a plane ready before takeoff. Would you rely on the pilot to remember these things? Of course not - the human memory is prone to lapses and distracted by things as small as what you ate that day; missing even one thing could spell disaster in flight. Where one pilot remembered the steps perfectly, the next pilot might not. No, your airline would make a checklist.
 
-Any safety-critical organization from airlines to NASA to the military knows that humans are poor executors of routines. It takes a long time to encode the steps in muscle memory, and a long time to change that muscle memory when the steps need to be updated. By writing down checklists, we create a centralized source of information that can be referenced by anyone, doesn't rely on human memory, and can be updated with new learnings. In short, checklists are code functions executed on human processors.
+Any safety-critical organization from airlines to NASA to the military knows that humans execute routines poorly. It takes a long time to encode the steps in muscle memory, and a long time to change that muscle memory when the steps need to be updated. By writing down checklists, we create a centralized source of information that can be referenced by anyone, doesn't rely on human memory, and can be updated with new learnings. In short, checklists are code functions executed on human processors.
 
 And yet... we have all these amazing advancements for machine code - cloud storage and version control and powerful editors and CI/CD tools. Where are these tools for human code? Maneuver warfare and the Toyota Production System show that whoever can cycle and learn fastest wins. So why are organizations leaving their institutional lessons scattered in the heads of their employees where they can be forgotten or lost when an employee moves on?
 
@@ -77,7 +77,7 @@ Just like with machine code, history is important, rollbacks are sometimes neces
 ### Human code repositories must be easily accessible by everyone
 If the human code repository isn't easily-accessed, teams won't go through the trouble of using or updating them and human code will revert to being stored in human brains. If the checklists aren't available to the entire team, learning will fragment again as each team writes their own checklist thinking it's the first of its kind. If permissioning is needed, allow users to see the checklist title but not the contents.
 
-### The checklists in the human code repository should be templatest for future executions
+### The checklists in the human code repository should be templates for future executions
 To run a checklist, a human should be able to simply make a copy of the master from the human code repo. The master should contain all the empty boxes and such necessary for an executor to start storing their results in seconds.
 
 ### Be wary of the cost-benefit tradeoff for checklists
