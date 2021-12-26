@@ -2,11 +2,13 @@ Human Code
 ==========
 What's human code?
 ------------------
-Imagine you're an airline and you have a sequence of things that need to be done to make a plane ready before takeoff. Would you rely on the pilot to remember these things? Of course not - the human memory is prone to lapses and distracted by things as small as what you ate that day; missing even one thing could spell disaster in flight. Where one pilot remembered the steps perfectly, the next pilot might not. No, your airline would make a checklist.
+Imagine you're an airline and you have a sequence of things that need to be done to make a plane ready for takeoff. Would you rely on the pilot to remember these things? Of course not - the human memory is prone to lapses and distracted by things as small as what you ate that day; missing even one thing could spell disaster in flight. Where one pilot remembered the steps perfectly, the next pilot might not. No, your airline would make a checklist.
 
-Any safety-critical organization from airlines to NASA to the military knows that humans execute routines poorly. It takes a long time to encode the steps in muscle memory, and a long time to change that muscle memory when the steps need to be updated. By writing down checklists, we create a centralized source of information that can be referenced by anyone, doesn't rely on human memory, and can be updated with new learnings. In short, checklists are code functions executed on human processors.
+Any safety-critical organization from airlines to NASA to the military knows that humans execute routines poorly. It takes a long time to encode the steps in memory, and a long time to change that memory when the steps need to be updated. By writing down checklists, we create a centralized source of information that can be referenced by anyone, doesn't rely on human memory, and can be updated with new learnings. In short, checklists are code functions executed on human processors.
 
 And yet... we have all these amazing advancements for machine code - cloud storage and version control and powerful editors and CI/CD tools. Where are these tools for human code? Maneuver warfare and the Toyota Production System show that whoever can cycle and learn fastest wins. So why are organizations leaving their institutional lessons scattered in the heads of their employees where they can be forgotten or lost when an employee moves on?
+
+This document proposes that we treat instructions to humans like we treat instructions to computers, and provides some best practices we've discovered when writing and executing human code.
 
 Rules for writing human code
 ----------------------------
@@ -88,5 +90,5 @@ Rules for executing human code
 ### Don't check an item off until it's done
 It's sometimes tempting to check an item off and then turn to do it. If you were to get pulled away by an emergency in that second and come back to the checklist later, you'd skip a step. Only check items off after you've completed them.
 
-### Check items off as soon as they're done
+### Check off items as soon as they're done
 Likewise, it's tempting to batch checklist actions - read a couple items, do them all at once, and then tick off several items. The same issue with emergencies applies: if you were interrupted by an emergency in the middle of your batch, some items would get done twice. Worse still, batching means relying once again on the failure-prone human memory. The easiest solution to this is to keep the checklist open side-by-side with your workspace and check items off as you go.

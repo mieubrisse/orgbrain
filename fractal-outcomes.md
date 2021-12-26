@@ -1,8 +1,8 @@
 Fractal Outcomes
 ================
-
 Uncertainty
 -----------
+
 * Human code works well when the path is already trodden
     * Put in X work, get Y output
 * When doing something never done before, it's harder to use
